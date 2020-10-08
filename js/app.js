@@ -32,8 +32,8 @@
     $('.navbar-nav a, .mouse-down').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 0
-        }, 1500, 'easeInOutExpo');
+            scrollTop: $($anchor.attr('href')).offset().top - 65
+        }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
     

@@ -1094,7 +1094,7 @@ p {
 }
 
 .section {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -2241,7 +2241,6 @@ p {
 }
 
 .footer.footer-bar {
-  padding: 30px 0;
+  padding: 15px 0;
   border-top: 1px solid #4e555d;
 }
-/*# sourceMappingURL=style.css.map */
