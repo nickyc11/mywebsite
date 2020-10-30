@@ -77,4 +77,6 @@
     
     //Feather icon
     feather.replace()
+    
 }(jQuery)
+
