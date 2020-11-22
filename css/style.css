@@ -2242,15 +2242,6 @@ p {
   }
 }
 
-#success_page {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#success_page h3 {
-  color: #25b865;
-}
-
 .footer {
   padding-bottom: 10px;
   position: relative;
