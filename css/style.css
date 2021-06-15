@@ -37,7 +37,7 @@ h4 {
 }
 
 h5 {
-  font-size: 18px !important;
+  font-size: 25px !important;
 }
 
 h6 {
@@ -1058,7 +1058,7 @@ button:not(:disabled) {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden !important;
-  font-size: 14px;
+  font-size: 18px;
   color: #161c2d;
 }
 
