@@ -1141,7 +1141,7 @@ p {
 
 .section-title .title {
   letter-spacing: 1px;
-  font-size: 22px !important;
+  font-size: 30px !important;
   position: relative;
   display: inline-block;
   z-index: 2;
@@ -1478,6 +1478,8 @@ p {
       align-self: center;
   position: relative;
   background-position: center center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bg-half {
@@ -1795,7 +1797,7 @@ p {
 }
 
 .timeline-page .timeline-item .event .timeline-subtitle {
-  font-size: 14px;
+  font-size: 40px;
 }
 
 .timeline-page .timeline-item .event:hover {
