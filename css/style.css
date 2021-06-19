@@ -149,7 +149,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #8492a6 !important;
+  color: #585858 !important;
 }
 
 a.text-muted:hover, a.text-muted:focus {
@@ -158,6 +158,10 @@ a.text-muted:hover, a.text-muted:focus {
 
 .bg-light {
   background-color: #f9fafd !important;
+}
+
+.bg-darker {
+  background-color: #DCDCDC !important;
 }
 
 .text-light {
@@ -1099,7 +1103,7 @@ p {
 }
 
 .bg-overlay {
-  background-color: rgba(60, 72, 88, 0.7);
+  background-color: rgba(34, 34, 34, 0.7);
   position: absolute;
   top: 0;
   right: 0;
@@ -1677,7 +1681,7 @@ p {
   position: absolute;
   right: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
 .service-wrapper .big-icon .icons {
@@ -1688,16 +1692,16 @@ p {
 }
 
 .service-wrapper:hover {
-  -webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
-          box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
+  -webkit-box-shadow: 0 20px 25px rgba(60, 72, 88, 0.15);
+          box-shadow: 0 20px 25px rgba(60, 72, 88, 0.15);
   background: #ffffff;
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
   border-color: transparent !important;
 }
 
 .service-wrapper:hover:after {
-  width: 95%;
+  width: 100%;
   background-color: #f89d36;
 }
 
@@ -1707,7 +1711,11 @@ p {
 
 .service-wrapper:hover .big-icon {
   z-index: -1;
-  opacity: 50%;
+  opacity: 80%;
+}
+
+.service-wrapper:hover #special {
+  opacity: 0%;
 }
 
 .service-wrapper:hover .big-icon .icons {

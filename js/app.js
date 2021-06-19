@@ -16,7 +16,7 @@
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 900) {
+        if (scroll >= 700) {
             $(".sticky").addClass("nav-sticky");
         } else {
             $(".sticky").removeClass("nav-sticky");
